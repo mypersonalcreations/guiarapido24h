@@ -1,4 +1,5 @@
 import { AlertCircle } from "lucide-react";
+import problemImg from "@/assets/problem-illustration.png";
 
 const ProblemSection = () => (
   <section className="section-container">
@@ -17,6 +18,7 @@ const ProblemSection = () => (
         </p>
       </div>
     </div>
+    <img src={problemImg} alt="Pessoa sobrecarregada com tarefas" className="w-full max-w-md mx-auto mt-8 rounded-2xl" />
   </section>
 );
 

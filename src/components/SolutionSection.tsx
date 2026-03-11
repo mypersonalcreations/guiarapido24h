@@ -1,4 +1,5 @@
 import CtaButton from "./CtaButton";
+import solutionImg from "@/assets/solution-illustration.png";
 
 const SolutionSection = () => (
   <section className="section-container">
@@ -19,6 +20,7 @@ const SolutionSection = () => (
         Mesmo que você já tenha tentado antes e não conseguiu manter constância.
       </p>
     </div>
+    <img src={solutionImg} alt="Pessoa tomando ação com clareza" className="w-full max-w-md mx-auto mt-8 rounded-2xl" />
     <div className="flex justify-center mt-8">
       <CtaButton>QUERO ACESSO IMEDIATO</CtaButton>
     </div>
