@@ -1,3 +1,5 @@
+import beliefImg from "@/assets/belief-illustration.png";
+
 const BeliefBreakSection = () => (
   <section className="surface-alt">
     <div className="section-container">
@@ -10,6 +12,7 @@ const BeliefBreakSection = () => (
       <p className="font-bold text-foreground text-center mt-8 text-base md:text-lg max-w-2xl mx-auto">
         "Por isso tentar vencer apenas na força de vontade quase nunca resolve. Você precisa quebrar o gatilho certo."
       </p>
+      <img src={beliefImg} alt="Ciclo mental da procrastinação" className="w-full max-w-md mx-auto mt-8 rounded-2xl" />
     </div>
   </section>
 );
