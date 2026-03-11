@@ -11,7 +11,7 @@ const HeroSection = () => (
         </span>
 
         <h1 className="text-3xl md:text-5xl font-black text-primary-foreground leading-tight text-balance mb-4">
-          Quebre o ciclo da procrastinação em <span className="text-yellow-400">24 horas</span>
+          Quebre o ciclo da procrastinação em <span className="font-black text-primary-foreground">24 horas</span>
         </h1>
 
         <p className="text-primary-foreground/80 text-base md:text-lg max-w-xl mb-6 text-balance">
