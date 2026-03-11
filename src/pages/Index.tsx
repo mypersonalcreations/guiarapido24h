@@ -1,14 +1,37 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import HeroSection from "@/components/HeroSection";
+import ProblemSection from "@/components/ProblemSection";
+import BeliefBreakSection from "@/components/BeliefBreakSection";
+import SolutionSection from "@/components/SolutionSection";
+import MethodSection from "@/components/MethodSection";
+import WhatYouGetSection from "@/components/WhatYouGetSection";
+import BenefitsSection from "@/components/BenefitsSection";
+import ForWhoSection from "@/components/ForWhoSection";
+import BonusSection from "@/components/BonusSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import FaqSection from "@/components/FaqSection";
+import GuaranteeSection from "@/components/GuaranteeSection";
+import OfferSection from "@/components/OfferSection";
+import UrgencySection from "@/components/UrgencySection";
+import FinalCtaSection from "@/components/FinalCtaSection";
 
-const Index = () => {
-  return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
-  );
-};
+const Index = () => (
+  <main className="min-h-screen bg-background">
+    <HeroSection />
+    <ProblemSection />
+    <BeliefBreakSection />
+    <SolutionSection />
+    <MethodSection />
+    <WhatYouGetSection />
+    <BenefitsSection />
+    <ForWhoSection />
+    <BonusSection />
+    <TestimonialsSection />
+    <FaqSection />
+    <GuaranteeSection />
+    <OfferSection />
+    <UrgencySection />
+    <FinalCtaSection />
+  </main>
+);
 
 export default Index;
