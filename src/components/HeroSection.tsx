@@ -1,4 +1,4 @@
-import { Star, Zap, BookOpen, Clock } from "lucide-react";
+import { Zap, BookOpen, Clock } from "lucide-react";
 import ebookMockup from "@/assets/ebook-mockup.png";
 import CtaButton from "./CtaButton";
 
