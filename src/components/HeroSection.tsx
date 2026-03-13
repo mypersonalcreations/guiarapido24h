@@ -14,7 +14,7 @@ const HeroSection = () => (
           Quebre o ciclo da procrastinação em <span className="font-black text-primary-foreground">24 horas</span>
         </h1>
 
-        <p className="text-primary-foreground/80 text-base md:text-lg max-w-xl mb-6 text-balance">
+        <p className="text-primary-foreground/80 text-base md:text-lg max-w-xl mb-4 text-balance">
           Um guia prático para sair da paralisia, cortar distrações e voltar a agir ainda hoje — sem depender de motivação.
         </p>
 
