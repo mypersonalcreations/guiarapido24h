@@ -1,4 +1,4 @@
-import { Star, Zap, BookOpen, Clock } from "lucide-react";
+import { Zap, BookOpen, Clock } from "lucide-react";
 import ebookMockup from "@/assets/ebook-mockup.png";
 import CtaButton from "./CtaButton";
 
@@ -18,14 +18,7 @@ const HeroSection = () => (
           Um guia prático para sair da paralisia, cortar distrações e voltar a agir ainda hoje — sem depender de motivação.
         </p>
 
-        <div className="flex flex-col md:flex-row items-center gap-1 mb-6">
-          <div className="flex items-center gap-1">
-            {[...Array(5)].map((_, i) => (
-              <Star key={i} size={18} className="fill-yellow-400 text-yellow-400" />
-            ))}
-          </div>
-          <span className="text-sm text-primary-foreground/70 md:ml-2 mt-1 md:mt-0">Mais de 19 mil pessoas impactadas</span>
-        </div>
+
 
         <img src={ebookMockup} alt="Guia Rápido para Quebrar a Procrastinação em 24 Horas" className="w-56 md:w-72 mb-8" />
 
